@@ -1,0 +1,17 @@
+{
+  "name": "broviki-server",
+  "author": "Andrew D.Laptev <a.d.laptev@gmail.com>",
+  "description": "ONVIF device manager server written in javascript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agsh/broviki-server"
+  },
+  "license": "GPL-3.0",
+  "version": "0.0.1",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": ">=4",
+    "express-session": "^1.13.0",
+    "nedb": "^1.6.2"
+  }
+}
