@@ -1,0 +1,5 @@
+{
+  "cookieMaxAge": 31536000000,
+  "dataPath": "/tmp/",
+  "port": 6900
+}
