@@ -64,3 +64,13 @@ definitions:
     properties:
       message:
         type: string
+security:
+  - auth:
+    - cams
+securityDefinitions:
+  auth:
+    type: oauth2
+    authorizationUrl: /api/auth
+    flow: implicit
+    scopes:
+      cams: get availible cams
