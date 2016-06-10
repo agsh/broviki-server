@@ -25,7 +25,11 @@ paths:
       description: Returns list of cams to the caller
       # used as the method name of the controller
       operationId: cams
-      parameters: [ ]
+      parameters:
+        - name: Cookie
+          in: header
+          type: string
+          required: true
       responses:
         "200":
           description: Success
