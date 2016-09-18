@@ -12,7 +12,9 @@
     "body-parser": "^1.14.2",
     "connect-nedb-session": "0.0.3",
     "express": ">=4",
+    "express-jwt": "^5.0.0",
     "express-session": "^1.13.0",
+    "jsonwebtoken": "^7.1.9",
     "nedb": "^1.6.2"
   }
 }
